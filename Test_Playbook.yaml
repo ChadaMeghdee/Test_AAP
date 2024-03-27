@@ -1,10 +1,6 @@
 ---
   - name: "Ansible Automation Platform Testing"
     inventory_dir: Dummy_inventory
-    vars:
-    cli:
-      username: root
-      password: #aYSf88x94hITbuh
     tasks:
     - name: "just execute a pwd command"
       shell: "pwd"
