@@ -3,7 +3,7 @@
     host: ansible_host
     tasks:
     - name: "just execute a pwd command"
-      shell: "pwd"
+      shell: "curl ifconfig.me"
       register: "output"
 # The Output of the above task will be displayed on the Screen
     - debug: var=output.stdout_lines
