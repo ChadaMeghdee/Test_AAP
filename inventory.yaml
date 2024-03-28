@@ -1,0 +1,4 @@
+meghhost:
+  hosts:
+    ansible_host: Testhost
+    ansible_port:22
