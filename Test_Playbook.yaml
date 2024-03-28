@@ -1,6 +1,6 @@
 ---
   - name: "Ansible Automation Platform Testing"
-    hosts: Testhost
+    hostvars: inventory.yaml
     tasks:
     - name: "just execute a pwd command"
       shell: "curl ifconfig.me"
