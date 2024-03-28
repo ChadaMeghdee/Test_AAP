@@ -1,6 +1,6 @@
 ---
   - name: "Ansible Automation Platform Testing"
-    hosts: vars.ansible_play_hosts
+    hosts: vars.ansible_hosts
     tasks:
     - name: "just execute a pwd command"
       shell: "pwd"
