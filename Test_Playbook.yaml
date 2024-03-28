@@ -1,9 +1,9 @@
 ---
   - name: "Ansible Automation Platform Testing"
-    hosts: inventory.yaml
+    hosts: Testhost
     tasks:
     - name: "just execute a pwd command"
-      shell: "curl ifconfig.me"
+      shell: "pwd"
       register: "output"
 # The Output of the above task will be displayed on the Screen
     - debug: var=output.stdout_lines
