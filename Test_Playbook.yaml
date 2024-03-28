@@ -1,6 +1,6 @@
 ---
   - name: "Ansible Automation Platform Testing"
-    hosts: ansible_host
+    hosts: localhost
     tasks:
     - name: "just execute a pwd command"
       shell: "pwd"
