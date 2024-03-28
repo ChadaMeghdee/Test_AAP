@@ -1,6 +1,6 @@
 ---
   - name: "Ansible Automation Platform Testing"
-    hosts: localhost
+    inventory_dir: /etc/ansible/hosts
     tasks:
     - name: "just execute a pwd command"
       shell: "pwd"
