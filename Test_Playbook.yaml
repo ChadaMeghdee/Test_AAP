@@ -1,6 +1,6 @@
 ---
   - name: "Ansible Automation Platform Testing"
-    inventory_file: inventory.yaml
+    hosts: Testhost
     tasks:
     - name: "just execute a pwd command"
       shell: "pwd"
