@@ -1,6 +1,6 @@
 ---
   - name: "Ansible Automation Platform Testing"
-    host: ansible_host
+    host: Testhost
     tasks:
     - name: "just execute a pwd command"
       shell: "curl ifconfig.me"
